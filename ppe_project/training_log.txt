@@ -1,0 +1,2 @@
+nohup: ignoring input
+/home/zeus/miniconda3/envs/cloudspace/bin/python: can't open file '/teamspace/studios/this_studio/ppe_project/ppe_yolov8m_train.py': [Errno 2] No such file or directory
