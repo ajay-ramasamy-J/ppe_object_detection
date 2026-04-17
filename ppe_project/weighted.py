@@ -63,8 +63,8 @@ class WeightedBCETrainer(DetectionTrainer):
         super()._setup_criterion()
         self._inject_weights(caller="_setup_criterion")
 
-    def _setup_train(self, world_size):
-        super()._setup_train(world_size)
+    def _setup_train(self, world_size=1):
+        super()._setup_train()
         self._inject_weights(caller="_setup_train")
 
     # ── Called every step (lazy fallback for late-init models) ──
