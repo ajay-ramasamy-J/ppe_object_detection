@@ -1,7 +1,7 @@
 task: detect
 mode: train
-model: C:/Users/metav/Desktop/project/ppe_object_detection/runs/detect/ppe_project/models/yolov8m_ppe/weights/best.pt
-data: C:/Users/metav/Desktop/project/ppe_object_detection/ppe_project/Dataset/data.yaml
+model: yolov8m.pt
+data: ./dataset/data.yaml
 epochs: 50
 time: null
 patience: 15
@@ -12,7 +12,7 @@ save_period: 5
 cache: false
 device: '0'
 workers: 0
-project: C:/Users/metav/Desktop/project/ppe_object_detection/runs/weighted
+project: ../runs/weighted
 name: yolov8m_weighted3
 exist_ok: false
 pretrained: true
@@ -107,4 +107,4 @@ auto_augment: randaugment
 erasing: 0.4
 cfg: null
 tracker: botsort.yaml
-save_dir: C:\Users\metav\Desktop\project\ppe_object_detection\runs\weighted\yolov8m_weighted3
+save_dir: C:\Users\ADMIN\Downloads\ppe_object_detection-main\ppe_object_detection-main\ppe_project\runs\runs\weighted\yolov8m_weighted3
